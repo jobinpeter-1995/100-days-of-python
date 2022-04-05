@@ -1,0 +1,33 @@
+
+Print function
++++++++++++++++++++++
+
+ print("This is a test !") the text enclosed in double quotes are called strings
+ 
+
+There is no differentiation with single quotes or double quotes
+
+1. Printing multiple lines in next line using \n 
+    print("Hello World! \nHello World!")
+2. Appending two strings using print : + operator
+    print("Hello" + " Jobin") ; Have to add space in quotes for the spaces
+    print("Hello" + " " + "Jobin")
+
+Input Function: 
+++++++++++++++++++++++
+
+Syntax: input("Prompt for user")
+
+Examples: print("Hello " + input("What is Your name ?" + "!")) ; input function will be executed first. then rest of the code. 
+
+Length of a string: print( len( input("Enter your name:")))
+
+
+Python variables: 
++++++++++++++++++++++++++
+
+Make your code readable while creating variables. eg: jobin_user
+
+
+
+
