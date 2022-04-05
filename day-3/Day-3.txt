@@ -1,0 +1,48 @@
+
+
+++++++++++
+Day 3++++
+++++++++++
+
+1. if/else 
+
+    if condition:
+        print()
+    else:
+        print()
+
+    
+Comparison oerators:
+> , < ,>= , <= , == , !=
+
+2. Nested if: 
+
+    if condition:
+        if another condition:
+            do This
+        else:
+            do This
+    else:
+        do this
+
+3. elif:
+
+    if condition1:
+        do A 
+    elif condition2:
+        do B 
+    else: 
+        do this
+
+4. Multiple if statements
+
++++++++++
+Logical operators
++++++++++
+
+Check for mulitple conditions using logical operators
+
+AND : A and B has to be true
+OR  : Either A or B has to be true
+NOT : Negation
+
