@@ -1,0 +1,72 @@
+
++++++++++++++++
+++++Day-2++++++
++++++++++++++++
+
+Data types: 
++++++++++++
+
+1. string
+
+Subscripting: pulling out individual characters
+print("Hello"[0]) --> will print H 
+
+2. Integer 
+
+Write a number without anything ; print(356 + 456) will print the sum
+
+Large integers say 10 lakh, 10,00,000 can be replaced in python with underscore. 
+eg: 10_00_000 
+
+3. Float
+
+4. boolean : true or false
+
+# len function doesnt work with integers or float. 
+
+type() : 
+    to check the type of data. 
+
+type casting: 
+    we can change the datatype to another 
+    eg : num = 9000
+         print("Your number is " + str(num) + "...!")
+
+
+Mathematical operators:
+    + 
+    -
+    *
+    / - division causes float output. 
+    ** - exponent 
+    Calculation goes from left to right
+    P - parenthesis
+    E - Exponents
+    M - Multiply
+    D - division
+    A - Addition
+    S - Substraction
+
+Number Manipulation and F Strings: 
++++++++++++++++++++++++++++++++++++++
+
+1. round() : to round a numeric value 
+    print(round(8/3)) -->  2
+    print(round(8/3,2)) --> 2.67 # round to two decimel places
+
+    we can round division without round function using // instead of a single / operator
+        print(8 // 3) -->  2
+    
+    We can continue a mathematical operation with a variable itself.
+    eg: result = 4 / 2
+        result /= 2
+        print(result) --> 1.0 
+
+        to increment: score += 1 instead of score = score + 1
+    
+2. fstrings
+    used to convert all datatypes into string and places variables within curly braces
+    score = 10
+    height = 1.7
+    isWinning = False
+    print(f"Your score is  {score}, Your height is {height} and your winning is {isWinning}")
